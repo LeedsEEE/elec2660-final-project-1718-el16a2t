@@ -11,6 +11,8 @@
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIImageView *topimage;
+@property (weak, nonatomic) IBOutlet UIImageView *middleimage;
+@property (weak, nonatomic) IBOutlet UIImageView *bottomimage;
 
 @end
 
