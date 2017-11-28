@@ -14,5 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *middleimage;
 @property (weak, nonatomic) IBOutlet UIImageView *bottomimage;
 
+- (IBAction)Button1:(UIButton *)sender;
+
 @end
 

@@ -26,4 +26,11 @@
 }
 
 
+- (IBAction)Button1:(UIButton *)sender {
+    
+
+        
+        
+        _topimage.image = [UIImage ];
+}
 @end
