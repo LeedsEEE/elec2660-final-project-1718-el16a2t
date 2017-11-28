@@ -50,7 +50,7 @@
                                     <outletCollection property="gestureRecognizers" destination="R6C-3V-EQ7" appends="YES" id="S3R-Wm-Blf"/>
                                 </connections>
                             </imageView>
-                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="113859-29487_Tan_Flat_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="6mo-ZQ-nvq">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slacks.png" translatesAutoresizingMaskIntoConstraints="NO" id="6mo-ZQ-nvq">
                                 <frame key="frameInset" minY="312" width="414" height="307"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -170,7 +170,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="113859-29487_Tan_Flat_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="2gg-AZ-3TP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slacks.png" translatesAutoresizingMaskIntoConstraints="NO" id="2gg-AZ-3TP">
                                 <frame key="frameInset" minY="65" width="414" height="410"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -184,8 +184,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="113859-29487_Tan_Flat_3.png" width="900" height="1125"/>
         <image name="footwear.png" width="289" height="477"/>
         <image name="image.png" width="992" height="1001"/>
+        <image name="slacks.png" width="900" height="1125"/>
     </resources>
 </document>

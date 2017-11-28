@@ -31,6 +31,6 @@
 
         
         
-        _topimage.image = [UIImage ];
+        _topimage.image = [UIImage imageNamed:@"slacks.png"];
 }
 @end
