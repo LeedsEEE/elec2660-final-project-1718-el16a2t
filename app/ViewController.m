@@ -58,10 +58,12 @@
     
     self.clothesindex = self.clothesindex - 1;
     
-    if (self.clothesindex > (self.imagesArray.count - 1)) {
-        self.clothesindex = 3;
+    if (self.clothesindex < (self.imagesArray.count - 2)) {
+        self.clothesindex = 2;
     }
     self.topimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
 }
+
+
 @end
 
