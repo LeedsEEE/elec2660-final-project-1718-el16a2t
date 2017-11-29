@@ -17,7 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    _imagesArray= [[NSMutableArray alloc] initWithObjects:@"slacks.png", @"image.png", @"footwear.png", nil];
+    
+    
+    
 }
+
+
 
 
 - (void)didReceiveMemoryWarning {
@@ -26,11 +33,14 @@
 }
 
 
-- (IBAction)Button1:(UIButton *)sender {
-    
 
-        
-        
-        _topimage.image = [UIImage imageNamed:@"slacks.png"];
+
+
+
+
+
+- (IBAction)Button1:(UIButton *)sender {
+    [_topimage setImage:[UIImage imageNamed:[_imagesArray objectAtIndex: 2]]];
 }
 @end
+

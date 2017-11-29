@@ -16,5 +16,7 @@
 
 - (IBAction)Button1:(UIButton *)sender;
 
+@property (strong, nonatomic) NSMutableArray *imagesArray;
+
 @end
 
