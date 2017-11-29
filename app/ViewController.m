@@ -20,13 +20,16 @@
     
     _imagesArray= [[NSMutableArray alloc] initWithObjects:@"slacks.png", @"image.png", @"footwear.png", nil];
     
-    
-    
+    self.clothesindex = 0;
+    self.topimage.image = [UIImage imageNamed:@"image.png"];
+
 }
 
 
 
 
+
+         
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -40,7 +43,25 @@
 
 
 - (IBAction)Button1:(UIButton *)sender {
-    [_topimage setImage:[UIImage imageNamed:[_imagesArray ) ]]];
+   
+    self.clothesindex = self.clothesindex + 1;
+    
+    if (self.clothesindex > (self.imagesArray.count - 1)) {
+        self.clothesindex = 0;
+    }
+    self.topimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
+}
+
+
+
+- (IBAction)Button2:(UIButton *)sender {
+    
+    self.clothesindex = self.clothesindex - 1;
+    
+    if (self.clothesindex > (self.imagesArray.count - 1)) {
+        self.clothesindex = 3;
+    }
+    self.topimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
 }
 @end
 

@@ -15,8 +15,9 @@
 @property (weak, nonatomic) IBOutlet UIImageView *bottomimage;
 
 - (IBAction)Button1:(UIButton *)sender;
-
+@property (nonatomic) NSUInteger clothesindex;
 @property (strong, nonatomic) NSMutableArray *imagesArray;
+- (IBAction)Button2:(UIButton *)sender;
 
 @end
 
