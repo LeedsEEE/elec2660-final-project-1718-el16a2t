@@ -40,7 +40,7 @@
 
 
 - (IBAction)Button1:(UIButton *)sender {
-    [_topimage setImage:[UIImage imageNamed:[_imagesArray objectAtIndex: 2]]];
+    [_topimage setImage:[UIImage imageNamed:[_imagesArray ) ]]];
 }
 @end
 
