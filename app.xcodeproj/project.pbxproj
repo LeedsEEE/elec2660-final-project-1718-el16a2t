@@ -120,13 +120,13 @@
 			isa = PBXGroup;
 			children = (
 				78C277C61FC44CFB004A459A /* AppDelegate.h */,
+				78C277C71FC44CFB004A459A /* AppDelegate.m */,
 				783D93C31FD1C0A100BE26F8 /* TopViewController.h */,
 				783D93C41FD1C0A100BE26F8 /* TopViewController.m */,
 				783D93C61FD1C0C400BE26F8 /* MiddleViewController.h */,
 				783D93C71FD1C0C400BE26F8 /* MiddleViewController.m */,
 				783D93C91FD1C0D700BE26F8 /* BottomViewController.h */,
 				783D93CA1FD1C0D700BE26F8 /* BottomViewController.m */,
-				78C277C71FC44CFB004A459A /* AppDelegate.m */,
 				78C277C91FC44CFB004A459A /* ViewController.h */,
 				78C277CA1FC44CFB004A459A /* ViewController.m */,
 				78C277CC1FC44CFC004A459A /* Main.storyboard */,
