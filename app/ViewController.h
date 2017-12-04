@@ -27,7 +27,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *Price;
 
-@property (nonatomic, strong) NSString *setPrice;
+@property (nonatomic) NSInteger *setPrice;
 
 
 

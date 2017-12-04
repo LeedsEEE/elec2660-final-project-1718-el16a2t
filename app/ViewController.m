@@ -27,9 +27,9 @@
 
 
 
-self.topimage.setPrice =
+topimage.setPrice = 15;
 
-//sdfvsvddddddddd
+
 
 
 
@@ -119,7 +119,7 @@ self.topimage.setPrice =
 
 
 
-self.Price.float = [self.topimage.price + self.middleimage.price + self.bottomimage.price]
+self.Price.float = [self.topimage.setPrice + self.middleimage.setPrice + self.bottomimage.setPrice]
 
 
 
