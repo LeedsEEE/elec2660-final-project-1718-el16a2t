@@ -27,6 +27,19 @@
 
 
 
+self.topimage.setPrice = 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
          
@@ -106,7 +119,7 @@
 
 
 
-
+self.Price.float = [self.topimage.price + self.middleimage.price + self.bottomimage.price]
 
 
 
@@ -122,7 +135,7 @@
 }
 
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
+/*In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue2 sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
@@ -131,7 +144,7 @@
         mvc.middleImage = self.middleimage.image;
     }
     
-}
+}*/
 
 @end
 

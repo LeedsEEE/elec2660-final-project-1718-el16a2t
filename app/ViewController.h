@@ -25,8 +25,9 @@
 - (IBAction)Button6:(UIButton *)sender;
 
 
+@property (weak, nonatomic) IBOutlet UILabel *Price;
 
-
+@property (nonatomic, strong) NSString *setPrice;
 
 
 

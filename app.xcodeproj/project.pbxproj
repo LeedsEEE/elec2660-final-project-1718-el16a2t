@@ -22,6 +22,7 @@
 		78C277F71FC45EF2004A459A /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C277F61FC45EF2004A459A /* image.png */; };
 		78C277F91FC45FBE004A459A /* footwear.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C277F81FC45FBE004A459A /* footwear.png */; };
 		78C277FB1FC45FE6004A459A /* slacks.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C277FA1FC45FE6004A459A /* slacks.png */; };
+		78DE11421FD5CFB7008B6225 /* sign-check-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 78DE11411FD5CFB7008B6225 /* sign-check-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		78C277F61FC45EF2004A459A /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		78C277F81FC45FBE004A459A /* footwear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footwear.png; sourceTree = "<group>"; };
 		78C277FA1FC45FE6004A459A /* slacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slacks.png; sourceTree = "<group>"; };
+		78DE11411FD5CFB7008B6225 /* sign-check-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-check-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				782163FF1FCDAC3400EB3CD4 /* ImageArray.h */,
 				782164001FCDAC3400EB3CD4 /* ImageArray.m */,
 				78C277CF1FC44CFC004A459A /* Assets.xcassets */,
+				78DE11411FD5CFB7008B6225 /* sign-check-icon.png */,
 				78C277D11FC44CFC004A459A /* LaunchScreen.storyboard */,
 				78C277D41FC44CFC004A459A /* Info.plist */,
 				78C277C31FC44CFB004A459A /* Supporting Files */,
@@ -277,6 +280,7 @@
 			files = (
 				78C277F91FC45FBE004A459A /* footwear.png in Resources */,
 				78C277D31FC44CFC004A459A /* LaunchScreen.storyboard in Resources */,
+				78DE11421FD5CFB7008B6225 /* sign-check-icon.png in Resources */,
 				78C277FB1FC45FE6004A459A /* slacks.png in Resources */,
 				78C277D01FC44CFC004A459A /* Assets.xcassets in Resources */,
 				78C277CE1FC44CFC004A459A /* Main.storyboard in Resources */,
