@@ -27,9 +27,9 @@
 
 
 
-self.topimage.setPrice = 
+self.topimage.setPrice =
 
-
+//sdfvsv
 
 
 
