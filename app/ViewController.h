@@ -32,7 +32,7 @@
 @property (nonatomic) NSInteger *setPrice;
 
 
-@property (nonatomic) float totalprice;
+@property (nonatomic) float totalprice; //test
 
 
 
