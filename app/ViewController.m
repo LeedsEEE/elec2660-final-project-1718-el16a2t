@@ -27,7 +27,7 @@
 
 
 
-topimage.setPrice = 15;
+
 
 
 
@@ -119,7 +119,11 @@ topimage.setPrice = 15;
 
 
 
-self.Price.float = [self.topimage.setPrice + self.middleimage.setPrice + self.bottomimage.setPrice]
+
+/*_totalprice = (self.topimage.setPrice + self.middleimage.setPrice + self.bottomimage.setPrice);
+
+self.Price.text = [NSString stringwithformat: @"%f", _totalprice];*/
+
 
 
 
@@ -131,20 +135,16 @@ self.Price.float = [self.topimage.setPrice + self.middleimage.setPrice + self.bo
         TopViewController *tvc = [segue destinationViewController];
         tvc.topImage = self.topimage.image;
     }
-    
-}
-
-
-/*In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue2 sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-    if([[segue2 identifier] isEqualToString:@"MiddleSegue"]){
-        MiddleViewController *mvc = [segue2 destinationViewController];
+    if([[segue identifier] isEqualToString:@"MiddleSegue"]){
+        MiddleViewController *mvc = [segue destinationViewController];
         mvc.middleImage = self.middleimage.image;
     }
-    
-}*/
+    if([[segue identifier] isEqualToString:@"BottomSegue"]){
+        BottomViewController *bvc = [segue destinationViewController];
+        bvc.bottomImage = self.bottomimage.image;
+    }
+}
+
 
 @end
 

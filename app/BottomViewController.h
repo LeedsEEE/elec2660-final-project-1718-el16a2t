@@ -11,5 +11,6 @@
 @interface BottomViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIImageView *Shoes;
+@property (strong, nonatomic) UIImage *bottomImage;
 
 @end

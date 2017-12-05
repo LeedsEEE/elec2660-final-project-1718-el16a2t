@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "TopViewController.h"
 #import "MiddleViewController.h"
+#import "BottomViewController.h"
+#import "ImageArray.h"
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIImageView *topimage;
@@ -30,7 +32,7 @@
 @property (nonatomic) NSInteger *setPrice;
 
 
-
+@property (nonatomic) float totalprice;
 
 
 
