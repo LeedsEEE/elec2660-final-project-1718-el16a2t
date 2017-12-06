@@ -25,7 +25,7 @@
     _imagesArray= [[NSMutableArray alloc] initWithObjects:@"slacks.png", @"image.png", @"footwear.png", nil];
     
     self.clothesindex = 0;
-    self.topimage.image = [UIImage imageNamed:@"image.png"];
+
     
     
 
@@ -120,11 +120,11 @@
     }
     self.topimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
     
-    //test for commit
+
     
     
     if(
-       self.topimage.image == [UIImage imageNamed:@"image.png"]){
+       self.topimage.image == [UIImage imageNamed:[self.imagesArray objectAtIndex: 1]]){
         
         self.TopImageView.Price = 200;
     }
@@ -218,7 +218,7 @@
     }
     self.middleimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
     
-    
+    NSLog(@"%@",self.middleimage.image);
     
     
     if(
