@@ -41,7 +41,7 @@
         self.TopImageView.Price = 400;
     }
     else {
-    self.TopImageView.Price = 900;
+    self.TopImageView.Price = 9;
     
     }
     
@@ -58,7 +58,7 @@
         self.MiddleImageView.Price = 400;
     }
     else {
-        self.MiddleImageView.Price = 900;
+        self.MiddleImageView.Price = 9;
     }
     
     
@@ -70,19 +70,22 @@
         self.BottomImageView.Price = 200;
     }
     else if(
-            self.bottomimage.image == [UIImage imageNamed:@"slacks.png"]){
+            self.bottomimage.image == [UIImage imageNamed:@"slacks.png" ]){
         
         self.BottomImageView.Price = 400;
     }
     else {
-        self.BottomImageView.Price = 900;
+        self.BottomImageView.Price = 9;
     }
+    
+    
+
     
     
     
     _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
     
-    self.Pricelabel.text = [NSString stringWithFormat:@"%f", _totalprice];
+    self.Pricelabel.text = [NSString stringWithFormat:@"£%.0f", _totalprice];
     
 }
 
@@ -116,6 +119,28 @@
         self.clothesindex = 0;
     }
     self.topimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
+    
+    
+    
+    
+    if(
+       self.topimage.image == [UIImage imageNamed:@"image.png"]){
+        
+        self.TopImageView.Price = 200;
+    }
+    else if(
+            self.topimage.image == [UIImage imageNamed:@"slacks.png"]){
+        
+        self.TopImageView.Price = 400;
+    }
+    else {
+        self.TopImageView.Price = 9;
+        
+    }
+    
+    _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
+    
+    self.Pricelabel.text = [NSString stringWithFormat:@"£%.0f", _totalprice];
 }
 
 
@@ -128,6 +153,28 @@
         self.clothesindex = 2;
     }
     self.topimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
+    
+    
+    
+    
+    if(
+       self.topimage.image == [UIImage imageNamed:@"image.png"]){
+        
+        self.TopImageView.Price = 200;
+    }
+    else if(
+            self.topimage.image == [UIImage imageNamed:@"slacks.png"]){
+        
+        self.TopImageView.Price = 400;
+    }
+    else {
+        self.TopImageView.Price = 9;
+        
+    }
+    
+    _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
+    
+    self.Pricelabel.text = [NSString stringWithFormat:@"£%.0f", _totalprice];
 }
 
 - (IBAction)Button3:(UIButton *)sender {
@@ -138,6 +185,28 @@
         self.clothesindex = 0;
     }
     self.middleimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
+    
+    
+    
+    
+    if(
+       self.middleimage.image == [UIImage imageNamed:@"image.png"]){
+        
+        self.MiddleImageView.Price = 200;
+    }
+    else if(
+            self.middleimage.image == [UIImage imageNamed:@"slacks.png"]){
+        
+        self.MiddleImageView.Price = 400;
+    }
+    else {
+        self.MiddleImageView.Price = 9;
+    }
+    
+    _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
+    
+    self.Pricelabel.text = [NSString stringWithFormat:@"£%.0f", _totalprice];
+    
 }
 
 - (IBAction)Button4:(UIButton *)sender {
@@ -148,6 +217,28 @@
         self.clothesindex = 2;
     }
     self.middleimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
+    
+    
+    
+    
+    if(
+       self.middleimage.image == [UIImage imageNamed:@"image.png"]){
+        
+        self.MiddleImageView.Price = 200;
+    }
+    else if(
+            self.middleimage.image == [UIImage imageNamed:@"slacks.png"]){
+        
+        self.MiddleImageView.Price = 400;
+    }
+    else {
+        self.MiddleImageView.Price = 9;
+    }
+    
+    _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
+    
+    self.Pricelabel.text = [NSString stringWithFormat:@"£%.0f", _totalprice];
+    
 }
 
 - (IBAction)Button5:(UIButton *)sender {
@@ -158,8 +249,28 @@
         self.clothesindex = 0;
     }
     self.bottomimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
+    
+    
+    
+    
+   if(
+       self.bottomimage.image == [UIImage imageNamed:@"image.png"]){
+        
+        self.BottomImageView.Price = 200;
+    }
+    else if(
+            self.bottomimage.image == [UIImage imageNamed:@"slacks.png" ]){
+        
+        self.BottomImageView.Price = 400;
+    }
+    else {
+        self.BottomImageView.Price = 9;
 }
-
+    
+    _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
+    
+    self.Pricelabel.text = [NSString stringWithFormat:@"£%.0f", _totalprice];
+}
 - (IBAction)Button6:(UIButton *)sender {
     
     self.clothesindex = self.clothesindex - 1;
@@ -168,8 +279,30 @@
         self.clothesindex = 2;
     }
     self.bottomimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
-}
+    
 
+    
+    
+    if(
+       self.bottomimage.image == [UIImage imageNamed:@"image.png"]){
+        
+        self.BottomImageView.Price = 200;
+    }
+    else if(
+            self.bottomimage.image == [UIImage imageNamed:@"slacks.png" ]){
+        
+        self.BottomImageView.Price = 400;
+    }
+    else {
+        self.BottomImageView.Price = 9;
+}
+    
+    _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
+    
+    self.Pricelabel.text = [NSString stringWithFormat:@"£%.0f", _totalprice];
+    
+
+}
 
 
 
