@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ViewController.h"
+
 
 @interface ImageArray : NSObject
+
 
 
 

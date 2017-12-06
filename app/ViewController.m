@@ -18,11 +18,72 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.TopImageView = [[TopImageView alloc] init];
+    self.MiddleImageView = [[MiddleImageView alloc] init];
+    self.BottomImageView = [[BottomImageView alloc] init];
+    
     _imagesArray= [[NSMutableArray alloc] initWithObjects:@"slacks.png", @"image.png", @"footwear.png", nil];
     
     self.clothesindex = 0;
     self.topimage.image = [UIImage imageNamed:@"image.png"];
+    
+    
 
+    
+    if(
+       self.topimage.image == [UIImage imageNamed:@"image.png"]){
+        
+        self.TopImageView.Price = 200;
+    }
+    else if(
+            self.topimage.image == [UIImage imageNamed:@"slacks.png"]){
+        
+        self.TopImageView.Price = 400;
+    }
+    else {
+    self.TopImageView.Price = 900;
+    
+    }
+    
+
+    
+    if(
+       self.middleimage.image == [UIImage imageNamed:@"image.png"]){
+        
+        self.MiddleImageView.Price = 200;
+    }
+    else if(
+            self.middleimage.image == [UIImage imageNamed:@"slacks.png"]){
+        
+        self.MiddleImageView.Price = 400;
+    }
+    else {
+        self.MiddleImageView.Price = 900;
+    }
+    
+    
+
+    
+    if(
+       self.bottomimage.image == [UIImage imageNamed:@"image.png"]){
+        
+        self.BottomImageView.Price = 200;
+    }
+    else if(
+            self.bottomimage.image == [UIImage imageNamed:@"slacks.png"]){
+        
+        self.BottomImageView.Price = 400;
+    }
+    else {
+        self.BottomImageView.Price = 900;
+    }
+    
+    
+    
+    _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
+    
+    self.Pricelabel.text = [NSString stringWithFormat:@"%f", _totalprice];
+    
 }
 
 
@@ -35,14 +96,6 @@
 
 
 
-
-
-
-
-
-
-
-         
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -120,9 +173,7 @@
 
 
 
-/*_totalprice = (self.topimage.setPrice + self.middleimage.setPrice + self.bottomimage.setPrice);
 
-self.Price.text = [NSString stringwithformat: @"%f", _totalprice];*/
 
 
 

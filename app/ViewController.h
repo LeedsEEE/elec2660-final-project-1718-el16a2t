@@ -11,6 +11,10 @@
 #import "MiddleViewController.h"
 #import "BottomViewController.h"
 #import "ImageArray.h"
+#import "TopImageView.h"
+#import "MiddleImageView.h"
+#import "BottomImageView.h"
+
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIImageView *topimage;
@@ -27,11 +31,13 @@
 - (IBAction)Button6:(UIButton *)sender;
 
 
-@property (weak, nonatomic) IBOutlet UILabel *Price;
-
-@property (nonatomic) NSInteger *setPrice;
+@property (weak, nonatomic) IBOutlet UILabel *Pricelabel;
 
 
+
+@property (strong, nonatomic) TopImageView *TopImageView;
+@property (strong, nonatomic) MiddleImageView *MiddleImageView;
+@property (strong, nonatomic) BottomImageView *BottomImageView;
 @property (nonatomic) float totalprice; //test
 
 

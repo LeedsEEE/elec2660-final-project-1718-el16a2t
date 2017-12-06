@@ -11,6 +11,9 @@
 		783D93C51FD1C0A100BE26F8 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D93C41FD1C0A100BE26F8 /* TopViewController.m */; };
 		783D93C81FD1C0C400BE26F8 /* MiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D93C71FD1C0C400BE26F8 /* MiddleViewController.m */; };
 		783D93CB1FD1C0D700BE26F8 /* BottomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D93CA1FD1C0D700BE26F8 /* BottomViewController.m */; };
+		788A41D71FD8660600DA913F /* TopImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A41D61FD8660600DA913F /* TopImageView.m */; };
+		788A41DA1FD8661E00DA913F /* MiddleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A41D91FD8661E00DA913F /* MiddleImageView.m */; };
+		788A41DD1FD8662F00DA913F /* BottomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A41DC1FD8662F00DA913F /* BottomImageView.m */; };
 		78C277C51FC44CFB004A459A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C277C41FC44CFB004A459A /* main.m */; };
 		78C277C81FC44CFB004A459A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C277C71FC44CFB004A459A /* AppDelegate.m */; };
 		78C277CB1FC44CFB004A459A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C277CA1FC44CFB004A459A /* ViewController.m */; };
@@ -51,6 +54,12 @@
 		783D93C71FD1C0C400BE26F8 /* MiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleViewController.m; sourceTree = "<group>"; };
 		783D93C91FD1C0D700BE26F8 /* BottomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomViewController.h; sourceTree = "<group>"; };
 		783D93CA1FD1C0D700BE26F8 /* BottomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomViewController.m; sourceTree = "<group>"; };
+		788A41D51FD8660600DA913F /* TopImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopImageView.h; path = ../TopImageView.h; sourceTree = "<group>"; };
+		788A41D61FD8660600DA913F /* TopImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopImageView.m; path = ../TopImageView.m; sourceTree = "<group>"; };
+		788A41D81FD8661E00DA913F /* MiddleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiddleImageView.h; path = ../MiddleImageView.h; sourceTree = "<group>"; };
+		788A41D91FD8661E00DA913F /* MiddleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MiddleImageView.m; path = ../MiddleImageView.m; sourceTree = "<group>"; };
+		788A41DB1FD8662F00DA913F /* BottomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BottomImageView.h; path = ../BottomImageView.h; sourceTree = "<group>"; };
+		788A41DC1FD8662F00DA913F /* BottomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BottomImageView.m; path = ../BottomImageView.m; sourceTree = "<group>"; };
 		78C277C01FC44CFB004A459A /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C277C41FC44CFB004A459A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78C277C61FC44CFB004A459A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -123,6 +132,12 @@
 			children = (
 				78C277C61FC44CFB004A459A /* AppDelegate.h */,
 				78C277C71FC44CFB004A459A /* AppDelegate.m */,
+				788A41D51FD8660600DA913F /* TopImageView.h */,
+				788A41D61FD8660600DA913F /* TopImageView.m */,
+				788A41D81FD8661E00DA913F /* MiddleImageView.h */,
+				788A41D91FD8661E00DA913F /* MiddleImageView.m */,
+				788A41DB1FD8662F00DA913F /* BottomImageView.h */,
+				788A41DC1FD8662F00DA913F /* BottomImageView.m */,
 				783D93C31FD1C0A100BE26F8 /* TopViewController.h */,
 				783D93C41FD1C0A100BE26F8 /* TopViewController.m */,
 				783D93C61FD1C0C400BE26F8 /* MiddleViewController.h */,
@@ -310,7 +325,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				783D93C51FD1C0A100BE26F8 /* TopViewController.m in Sources */,
+				788A41DD1FD8662F00DA913F /* BottomImageView.m in Sources */,
 				78C277CB1FC44CFB004A459A /* ViewController.m in Sources */,
+				788A41DA1FD8661E00DA913F /* MiddleImageView.m in Sources */,
+				788A41D71FD8660600DA913F /* TopImageView.m in Sources */,
 				782164011FCDAC3400EB3CD4 /* ImageArray.m in Sources */,
 				783D93CB1FD1C0D700BE26F8 /* BottomViewController.m in Sources */,
 				78C277C81FC44CFB004A459A /* AppDelegate.m in Sources */,

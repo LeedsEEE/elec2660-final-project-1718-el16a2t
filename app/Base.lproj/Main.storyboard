@@ -98,7 +98,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFt-aE-AYj">
-                                <frame key="frameInset" minX="152" minY="626" width="71" height="21"/>
+                                <frame key="frameInset" minX="73" minY="626" width="230" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -131,7 +131,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="9zU-XT-iI9"/>
                     <connections>
-                        <outlet property="Price" destination="nFt-aE-AYj" id="6N3-On-hhK"/>
+                        <outlet property="Pricelabel" destination="nFt-aE-AYj" id="S0O-RI-yDW"/>
                         <outlet property="bottomimage" destination="5Ad-Ao-EaQ" id="vyA-Hy-Mtx"/>
                         <outlet property="middleimage" destination="6mo-ZQ-nvq" id="Yte-VN-vis"/>
                         <outlet property="topimage" destination="Uqa-lI-RAd" id="MkT-SZ-IA9"/>
