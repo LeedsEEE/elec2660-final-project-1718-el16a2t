@@ -123,7 +123,7 @@
 
     
     
-    if(
+   if(
        self.topimage.image == [UIImage imageNamed:[self.imagesArray objectAtIndex: 1]]){
         
         self.TopImageView.Price = 200;
