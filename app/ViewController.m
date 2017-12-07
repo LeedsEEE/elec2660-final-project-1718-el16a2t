@@ -22,21 +22,23 @@
     self.MiddleImageView = [[MiddleImageView alloc] init];
     self.BottomImageView = [[BottomImageView alloc] init];
     
-    _imagesArray= [[NSMutableArray alloc] initWithObjects:@"slacks.png", @"image.png", @"footwear.png", nil];
+    _imagesArraytops= [[NSMutableArray alloc] initWithObjects:@"blackhoodie.png", @"bluehoodie.png", @"greenhoodie.png", @"guccitee.png", @"palacetee.png", nil];
+    _imagesArraytrousers= [[NSMutableArray alloc] initWithObjects: @"beigetrousers.png", @"bluetrousers.png", @"skinnyjeans.png", @"straightjeans.png", @"joggers.png", nil];
+    _imagesArrayshoes= [[NSMutableArray alloc] initWithObjects: @"blueshoes.png", @"goldshoes.png", @"redshoes.png", @"triplesshoes.png", @"yeezyshoes.png", nil];
     
     self.clothesindex = 0;
 
     
-    
+  /*    NSString* imageName = [self.imagesArraytops objectAtIndex: self.clothesindex ];
 
     
     if(
-       self.topimage.image == [UIImage imageNamed:@"image.png"]){
+       [imageName isEqualToString:@"blackhoodie.png"]){
         
         self.TopImageView.Price = 200;
     }
     else if(
-            self.topimage.image == [UIImage imageNamed:@"slacks.png"]){
+            [imageName isEqualToString:@"slacks.png"]){
         
         self.TopImageView.Price = 400;
     }
@@ -86,7 +88,7 @@
     _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
     
     self.Pricelabel.text = [NSString stringWithFormat:@"£%.0f", _totalprice];
-    
+*/
 }
 
 
@@ -115,26 +117,37 @@
    
     self.clothesindex = self.clothesindex + 1;
     
-    if (self.clothesindex > (self.imagesArray.count - 1)) {
+    if (self.clothesindex > (self.imagesArraytops.count - 1)) {
         self.clothesindex = 0;
     }
-    self.topimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
+    self.topimage.image = [UIImage imageNamed:[self.imagesArraytops objectAtIndex: self.clothesindex ]];
     
 
-    
+    NSString* imageName = [self.imagesArraytops objectAtIndex: self.clothesindex ];
+    //https://stackoverflow.com/questions/47692822/objective-c-xcode-image-in-imageview-not-recognised-by-xcode
     
    if(
-       self.topimage.image == [UIImage imageNamed:[self.imagesArray objectAtIndex: 1]]){
+       [imageName isEqualToString:@"blackhoodie.png"]){
         
-        self.TopImageView.Price = 200;
+        self.TopImageView.Price = 100;
     }
     else if(
-            self.topimage.image == [UIImage imageNamed:@"slacks.png"]){
+            [imageName isEqualToString:@"bluehoodie.png"]){
         
-        self.TopImageView.Price = 400;
+        self.TopImageView.Price = 110;
+    }
+    else if(
+            [imageName isEqualToString:@"greenhoodie.png"]){
+        
+        self.TopImageView.Price = 110;
+    }
+    else if(
+            [imageName isEqualToString:@"guccitee.png"]){
+        
+        self.TopImageView.Price = 70;
     }
     else {
-        self.TopImageView.Price = 9;
+        self.TopImageView.Price = 90;
         
     }
     
@@ -150,25 +163,36 @@
     self.clothesindex = self.clothesindex - 1;
     
     if (self.clothesindex == (-1)) {
-        self.clothesindex = 2;
+        self.clothesindex = 4;
     }
-    self.topimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
+    self.topimage.image = [UIImage imageNamed:[self.imagesArraytops objectAtIndex: self.clothesindex ]];
     
     
-    
+    NSString* imageName = [self.imagesArraytops objectAtIndex: self.clothesindex ];
+
     
     if(
-       self.topimage.image == [UIImage imageNamed:@"image.png"]){
+       [imageName isEqualToString:@"blackhoodie.png"]){
         
-        self.TopImageView.Price = 200;
+        self.TopImageView.Price = 100;
     }
     else if(
-            self.topimage.image == [UIImage imageNamed:@"slacks.png"]){
+            [imageName isEqualToString:@"bluehoodie.png"]){
         
-        self.TopImageView.Price = 400;
+        self.TopImageView.Price = 110;
+    }
+    else if(
+            [imageName isEqualToString:@"greenhoodie.png"]){
+        
+        self.TopImageView.Price = 110;
+    }
+    else if(
+            [imageName isEqualToString:@"guccitee.png"]){
+        
+        self.TopImageView.Price = 70;
     }
     else {
-        self.TopImageView.Price = 9;
+        self.TopImageView.Price = 90;
         
     }
     
@@ -181,26 +205,37 @@
     
     self.clothesindex = self.clothesindex + 1;
     
-    if (self.clothesindex > (self.imagesArray.count - 1)) {
+    if (self.clothesindex > (self.imagesArraytrousers.count - 1)) {
         self.clothesindex = 0;
     }
-    self.middleimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
+    self.middleimage.image = [UIImage imageNamed:[self.imagesArraytrousers objectAtIndex: self.clothesindex ]];
     
     
-    
+      NSString* imageName = [self.imagesArraytrousers objectAtIndex: self.clothesindex ];
     
     if(
-       self.middleimage.image == [UIImage imageNamed:@"image.png"]){
+       [imageName isEqualToString:@"beigetrousers.png"]){
         
-        self.MiddleImageView.Price = 200;
+        self.MiddleImageView.Price = 70;
     }
     else if(
-            self.middleimage.image == [UIImage imageNamed:@"slacks.png"]){
+            [imageName isEqualToString:@"bluetrousers.png"]){
         
-        self.MiddleImageView.Price = 400;
+        self.MiddleImageView.Price = 50;
+    }
+    else if(
+            [imageName isEqualToString:@"skinnyjeans.png"]){
+        
+        self.MiddleImageView.Price = 110;
+    }
+    else if(
+            [imageName isEqualToString:@"straightjeans.png"]){
+        
+        self.MiddleImageView.Price = 30;
     }
     else {
-        self.MiddleImageView.Price = 9;
+        self.MiddleImageView.Price = 40;
+        
     }
     
     _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
@@ -214,25 +249,36 @@
     self.clothesindex = self.clothesindex - 1;
     
     if (self.clothesindex == (-1)) {
-        self.clothesindex = 2;
+        self.clothesindex = 4;
     }
-    self.middleimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
+    self.middleimage.image = [UIImage imageNamed:[self.imagesArraytrousers objectAtIndex: self.clothesindex ]];
     
-    NSLog(@"%@",self.middleimage.image);
     
+    NSString* imageName = [self.imagesArraytrousers objectAtIndex: self.clothesindex ];
     
     if(
-       self.middleimage.image == [UIImage imageNamed:@"image.png"]){
+       [imageName isEqualToString:@"beigetrousers.png"]){
         
-        self.MiddleImageView.Price = 200;
+        self.MiddleImageView.Price = 70;
     }
     else if(
-            self.middleimage.image == [UIImage imageNamed:@"slacks.png"]){
+            [imageName isEqualToString:@"bluetrousers.png"]){
         
-        self.MiddleImageView.Price = 400;
+        self.MiddleImageView.Price = 50;
+    }
+    else if(
+            [imageName isEqualToString:@"skinnyjeans.png"]){
+        
+        self.MiddleImageView.Price = 110;
+    }
+    else if(
+            [imageName isEqualToString:@"straightjeans.png"]){
+        
+        self.MiddleImageView.Price = 30;
     }
     else {
-        self.MiddleImageView.Price = 9;
+        self.MiddleImageView.Price = 40;
+        
     }
     
     _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
@@ -245,26 +291,35 @@
     
     self.clothesindex = self.clothesindex + 1;
     
-    if (self.clothesindex > (self.imagesArray.count - 1)) {
+    if (self.clothesindex > (self.imagesArrayshoes.count - 1)) {
         self.clothesindex = 0;
     }
-    self.bottomimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
+    self.bottomimage.image = [UIImage imageNamed:[self.imagesArrayshoes objectAtIndex: self.clothesindex ]];
     
     
-    
+      NSString* imageName = [self.imagesArrayshoes objectAtIndex: self.clothesindex ];
     
    if(
-       self.bottomimage.image == [UIImage imageNamed:@"image.png"]){
+       [imageName isEqualToString:@"goldshoes.png"]){
         
         self.BottomImageView.Price = 200;
     }
     else if(
-            self.bottomimage.image == [UIImage imageNamed:@"slacks.png" ]){
+            [imageName isEqualToString:@"blueshoes.png"]){
         
-        self.BottomImageView.Price = 400;
+        self.BottomImageView.Price = 40;
+    }
+    else if(
+            [imageName isEqualToString:@"redshoes.png"]){
+        
+        self.BottomImageView.Price = 50;
+    }
+    else if(
+            [imageName isEqualToString:@"triplesshoes.png"]){
+        self.BottomImageView.Price = 800;
     }
     else {
-        self.BottomImageView.Price = 9;
+        self.BottomImageView.Price = 1500;
 }
     
     _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
@@ -276,26 +331,35 @@
     self.clothesindex = self.clothesindex - 1;
     
     if (self.clothesindex == (-1)) {
-        self.clothesindex = 2;
+        self.clothesindex = 4;
     }
-    self.bottomimage.image = [UIImage imageNamed:[self.imagesArray objectAtIndex: self.clothesindex ]];
+    self.bottomimage.image = [UIImage imageNamed:[self.imagesArrayshoes objectAtIndex: self.clothesindex ]];
     
-
     
+    NSString* imageName = [self.imagesArrayshoes objectAtIndex: self.clothesindex ];
     
     if(
-       self.bottomimage.image == [UIImage imageNamed:@"image.png"]){
+       [imageName isEqualToString:@"goldshoes.png"]){
         
         self.BottomImageView.Price = 200;
     }
     else if(
-            self.bottomimage.image == [UIImage imageNamed:@"slacks.png" ]){
+            [imageName isEqualToString:@"blueshoes.png"]){
         
-        self.BottomImageView.Price = 400;
+        self.BottomImageView.Price = 40;
+    }
+    else if(
+            [imageName isEqualToString:@"redshoes.png"]){
+        
+        self.BottomImageView.Price = 50;
+    }
+    else if(
+            [imageName isEqualToString:@"triplesshoes.png"]){
+        self.BottomImageView.Price = 800;
     }
     else {
-        self.BottomImageView.Price = 9;
-}
+        self.BottomImageView.Price = 1500;
+    }
     
     _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
     
@@ -327,6 +391,7 @@
         BottomViewController *bvc = [segue destinationViewController];
         bvc.bottomImage = self.bottomimage.image;
     }
+    
 }
 
 

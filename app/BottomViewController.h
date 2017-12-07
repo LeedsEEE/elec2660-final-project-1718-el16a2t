@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
+
 
 @interface BottomViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIImageView *Shoes;
 @property (strong, nonatomic) UIImage *bottomImage;
+@property (strong, nonatomic) NSString *bottomImageName;
+@property (weak, nonatomic) IBOutlet UILabel *shoesdescription;
+@property (weak, nonatomic) IBOutlet UILabel *shoeshyperlink;
 
 @end

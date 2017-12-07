@@ -13,5 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *Top;
 @property (strong, nonatomic) UIImage *topImage;
+@property (weak, nonatomic) IBOutlet UILabel *topdescription;
+@property (weak, nonatomic) IBOutlet UILabel *tophyperlink;
 
 @end

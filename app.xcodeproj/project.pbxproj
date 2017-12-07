@@ -11,6 +11,21 @@
 		783D93C51FD1C0A100BE26F8 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D93C41FD1C0A100BE26F8 /* TopViewController.m */; };
 		783D93C81FD1C0C400BE26F8 /* MiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D93C71FD1C0C400BE26F8 /* MiddleViewController.m */; };
 		783D93CB1FD1C0D700BE26F8 /* BottomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D93CA1FD1C0D700BE26F8 /* BottomViewController.m */; };
+		7869DB9F1FD93DC900DC20BA /* beigetrousers.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB901FD93DC900DC20BA /* beigetrousers.png */; };
+		7869DBA01FD93DC900DC20BA /* blackhoodie.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB911FD93DC900DC20BA /* blackhoodie.png */; };
+		7869DBA11FD93DC900DC20BA /* bluehoodie.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB921FD93DC900DC20BA /* bluehoodie.png */; };
+		7869DBA21FD93DC900DC20BA /* blueshoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB931FD93DC900DC20BA /* blueshoes.png */; };
+		7869DBA31FD93DC900DC20BA /* bluetrousers.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB941FD93DC900DC20BA /* bluetrousers.png */; };
+		7869DBA41FD93DC900DC20BA /* goldshoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB951FD93DC900DC20BA /* goldshoes.png */; };
+		7869DBA51FD93DC900DC20BA /* greenhoodie.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB961FD93DC900DC20BA /* greenhoodie.png */; };
+		7869DBA61FD93DC900DC20BA /* guccitee.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB971FD93DC900DC20BA /* guccitee.png */; };
+		7869DBA71FD93DC900DC20BA /* joggers.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB981FD93DC900DC20BA /* joggers.png */; };
+		7869DBA81FD93DC900DC20BA /* palacetee.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB991FD93DC900DC20BA /* palacetee.png */; };
+		7869DBA91FD93DC900DC20BA /* redshoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB9A1FD93DC900DC20BA /* redshoes.png */; };
+		7869DBAA1FD93DC900DC20BA /* skinnyjeans.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB9B1FD93DC900DC20BA /* skinnyjeans.png */; };
+		7869DBAB1FD93DC900DC20BA /* straightjeans.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB9C1FD93DC900DC20BA /* straightjeans.png */; };
+		7869DBAC1FD93DC900DC20BA /* triplesshoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB9D1FD93DC900DC20BA /* triplesshoes.png */; };
+		7869DBAD1FD93DC900DC20BA /* yeezyshoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 7869DB9E1FD93DC900DC20BA /* yeezyshoes.png */; };
 		788A41D71FD8660600DA913F /* TopImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A41D61FD8660600DA913F /* TopImageView.m */; };
 		788A41DA1FD8661E00DA913F /* MiddleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A41D91FD8661E00DA913F /* MiddleImageView.m */; };
 		788A41DD1FD8662F00DA913F /* BottomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A41DC1FD8662F00DA913F /* BottomImageView.m */; };
@@ -56,6 +71,21 @@
 		783D93C71FD1C0C400BE26F8 /* MiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleViewController.m; sourceTree = "<group>"; };
 		783D93C91FD1C0D700BE26F8 /* BottomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomViewController.h; sourceTree = "<group>"; };
 		783D93CA1FD1C0D700BE26F8 /* BottomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomViewController.m; sourceTree = "<group>"; };
+		7869DB901FD93DC900DC20BA /* beigetrousers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beigetrousers.png; sourceTree = "<group>"; };
+		7869DB911FD93DC900DC20BA /* blackhoodie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackhoodie.png; sourceTree = "<group>"; };
+		7869DB921FD93DC900DC20BA /* bluehoodie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluehoodie.png; sourceTree = "<group>"; };
+		7869DB931FD93DC900DC20BA /* blueshoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueshoes.png; sourceTree = "<group>"; };
+		7869DB941FD93DC900DC20BA /* bluetrousers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluetrousers.png; sourceTree = "<group>"; };
+		7869DB951FD93DC900DC20BA /* goldshoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldshoes.png; sourceTree = "<group>"; };
+		7869DB961FD93DC900DC20BA /* greenhoodie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenhoodie.png; sourceTree = "<group>"; };
+		7869DB971FD93DC900DC20BA /* guccitee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guccitee.png; sourceTree = "<group>"; };
+		7869DB981FD93DC900DC20BA /* joggers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joggers.png; sourceTree = "<group>"; };
+		7869DB991FD93DC900DC20BA /* palacetee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = palacetee.png; sourceTree = "<group>"; };
+		7869DB9A1FD93DC900DC20BA /* redshoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redshoes.png; sourceTree = "<group>"; };
+		7869DB9B1FD93DC900DC20BA /* skinnyjeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skinnyjeans.png; sourceTree = "<group>"; };
+		7869DB9C1FD93DC900DC20BA /* straightjeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = straightjeans.png; sourceTree = "<group>"; };
+		7869DB9D1FD93DC900DC20BA /* triplesshoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triplesshoes.png; sourceTree = "<group>"; };
+		7869DB9E1FD93DC900DC20BA /* yeezyshoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yeezyshoes.png; sourceTree = "<group>"; };
 		788A41D51FD8660600DA913F /* TopImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopImageView.h; path = ../TopImageView.h; sourceTree = "<group>"; };
 		788A41D61FD8660600DA913F /* TopImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopImageView.m; path = ../TopImageView.m; sourceTree = "<group>"; };
 		788A41D81FD8661E00DA913F /* MiddleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiddleImageView.h; path = ../MiddleImageView.h; sourceTree = "<group>"; };
@@ -171,6 +201,21 @@
 				78C277F81FC45FBE004A459A /* footwear.png */,
 				78C277F61FC45EF2004A459A /* image.png */,
 				78C277FA1FC45FE6004A459A /* slacks.png */,
+				7869DB901FD93DC900DC20BA /* beigetrousers.png */,
+				7869DB911FD93DC900DC20BA /* blackhoodie.png */,
+				7869DB921FD93DC900DC20BA /* bluehoodie.png */,
+				7869DB931FD93DC900DC20BA /* blueshoes.png */,
+				7869DB941FD93DC900DC20BA /* bluetrousers.png */,
+				7869DB951FD93DC900DC20BA /* goldshoes.png */,
+				7869DB961FD93DC900DC20BA /* greenhoodie.png */,
+				7869DB971FD93DC900DC20BA /* guccitee.png */,
+				7869DB981FD93DC900DC20BA /* joggers.png */,
+				7869DB991FD93DC900DC20BA /* palacetee.png */,
+				7869DB9A1FD93DC900DC20BA /* redshoes.png */,
+				7869DB9B1FD93DC900DC20BA /* skinnyjeans.png */,
+				7869DB9C1FD93DC900DC20BA /* straightjeans.png */,
+				7869DB9D1FD93DC900DC20BA /* triplesshoes.png */,
+				7869DB9E1FD93DC900DC20BA /* yeezyshoes.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -299,15 +344,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7869DBA91FD93DC900DC20BA /* redshoes.png in Resources */,
+				7869DBAD1FD93DC900DC20BA /* yeezyshoes.png in Resources */,
 				78C277F91FC45FBE004A459A /* footwear.png in Resources */,
 				78C277D31FC44CFC004A459A /* LaunchScreen.storyboard in Resources */,
+				7869DBA41FD93DC900DC20BA /* goldshoes.png in Resources */,
+				7869DBA71FD93DC900DC20BA /* joggers.png in Resources */,
+				7869DBA31FD93DC900DC20BA /* bluetrousers.png in Resources */,
 				78DE11421FD5CFB7008B6225 /* sign-check-icon.png in Resources */,
+				7869DBA21FD93DC900DC20BA /* blueshoes.png in Resources */,
 				78C277FB1FC45FE6004A459A /* slacks.png in Resources */,
+				7869DBA61FD93DC900DC20BA /* guccitee.png in Resources */,
 				78C277D01FC44CFC004A459A /* Assets.xcassets in Resources */,
+				7869DBAB1FD93DC900DC20BA /* straightjeans.png in Resources */,
 				78A2BCDE1FD8961E00CAD527 /* logo.png in Resources */,
 				78C277CE1FC44CFC004A459A /* Main.storyboard in Resources */,
+				7869DBA01FD93DC900DC20BA /* blackhoodie.png in Resources */,
+				7869DBA81FD93DC900DC20BA /* palacetee.png in Resources */,
+				7869DBA51FD93DC900DC20BA /* greenhoodie.png in Resources */,
+				7869DBAA1FD93DC900DC20BA /* skinnyjeans.png in Resources */,
 				78C277F71FC45EF2004A459A /* image.png in Resources */,
+				7869DBA11FD93DC900DC20BA /* bluehoodie.png in Resources */,
+				7869DBAC1FD93DC900DC20BA /* triplesshoes.png in Resources */,
 				78A2BCE01FD8971F00CAD527 /* litfits.png in Resources */,
+				7869DB9F1FD93DC900DC20BA /* beigetrousers.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

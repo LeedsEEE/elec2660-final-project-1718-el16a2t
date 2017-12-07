@@ -10,6 +10,7 @@
 #import "TopViewController.h"
 #import "MiddleViewController.h"
 #import "BottomViewController.h"
+
 #import "ImageArray.h"
 #import "TopImageView.h"
 #import "MiddleImageView.h"
@@ -23,7 +24,9 @@
 
 - (IBAction)Button1:(UIButton *)sender;
 @property (nonatomic) NSUInteger clothesindex;
-@property (strong, nonatomic) NSMutableArray *imagesArray;
+@property (strong, nonatomic) NSMutableArray *imagesArraytops;
+@property (strong, nonatomic) NSMutableArray *imagesArraytrousers;
+@property (strong, nonatomic) NSMutableArray *imagesArrayshoes;
 - (IBAction)Button2:(UIButton *)sender;
 - (IBAction)Button3:(UIButton *)sender;
 - (IBAction)Button4:(UIButton *)sender;

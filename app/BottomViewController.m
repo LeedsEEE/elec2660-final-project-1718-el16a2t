@@ -7,7 +7,7 @@
 //
 
 #import "BottomViewController.h"
-
+#import "ViewController.h"
 @interface BottomViewController ()
 
 @end
@@ -18,7 +18,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     _Shoes.image = _bottomImage;
-}
+    
+
+
+
+// if( [_bottomImageName isEqualToString:@"image.png"]){
+        self.shoesdescription.text = [NSString stringWithFormat:@"these are some lovely shoes you have here"];
+        self.shoeshyperlink.text = [NSString stringWithFormat:@"www.shoes.com"];
+    }
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
