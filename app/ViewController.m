@@ -29,57 +29,92 @@
     self.clothesIndexTop = 0;
     self.clothesIndexMiddle = 0;
     self.clothesIndexBottom = 0;
+    
+    self.topimage.image = [UIImage imageNamed:[self.imagesArraytops objectAtIndex:0]];
+    self.middleimage.image = [UIImage imageNamed:[self.imagesArraytrousers objectAtIndex:0]];
+    self.bottomimage.image = [UIImage imageNamed:[self.imagesArrayshoes objectAtIndex:0]];
+    
 
     
-  /*    NSString* imageName = [self.imagesArraytops objectAtIndex: self.clothesindex ];
+  NSString* imageNametop = [self.imagesArraytops objectAtIndex: self.clothesIndexTop ];
 
     
     if(
-       [imageName isEqualToString:@"blackhoodie.png"]){
+       [imageNametop isEqualToString:@"blackhoodie.png"]){
         
-        self.TopImageView.Price = 200;
+        self.TopImageView.Price = 100;
     }
     else if(
-            [imageName isEqualToString:@"slacks.png"]){
+            [imageNametop isEqualToString:@"bluehoodie.png"]){
         
-        self.TopImageView.Price = 400;
-    }
-    else {
-    self.TopImageView.Price = 9;
-    
-    }
-    
-
-    
-    if(
-       self.middleimage.image == [UIImage imageNamed:@"image.png"]){
-        
-        self.MiddleImageView.Price = 200;
+        self.TopImageView.Price = 110;
     }
     else if(
-            self.middleimage.image == [UIImage imageNamed:@"slacks.png"]){
+            [imageNametop isEqualToString:@"greenhoodie.png"]){
         
-        self.MiddleImageView.Price = 400;
+        self.TopImageView.Price = 110;
+    }
+    else if(
+            [imageNametop isEqualToString:@"guccitee.png"]){
+        
+        self.TopImageView.Price = 70;
     }
     else {
-        self.MiddleImageView.Price = 9;
+        self.TopImageView.Price = 90;
+        
+    }
+    
+   NSString* imageNamemiddle = [self.imagesArraytrousers objectAtIndex: self.clothesIndexMiddle ];
+    
+    if(
+       [imageNamemiddle isEqualToString:@"beigetrousers.png"]){
+        
+        self.MiddleImageView.Price = 70;
+    }
+    else if(
+            [imageNamemiddle isEqualToString:@"bluetrousers.png"]){
+        
+        self.MiddleImageView.Price = 50;
+    }
+    else if(
+            [imageNamemiddle isEqualToString:@"skinnyjeans.png"]){
+        
+        self.MiddleImageView.Price = 110;
+    }
+    else if(
+            [imageNamemiddle isEqualToString:@"straightjeans.png"]){
+        
+        self.MiddleImageView.Price = 30;
+    }
+    else {
+        self.MiddleImageView.Price = 40;
+        
     }
     
     
-
+    NSString* imageNamebottom = [self.imagesArrayshoes objectAtIndex:self.clothesIndexMiddle];
     
     if(
-       self.bottomimage.image == [UIImage imageNamed:@"image.png"]){
+       [imageNamebottom isEqualToString:@"goldshoes.png"]){
         
         self.BottomImageView.Price = 200;
     }
     else if(
-            self.bottomimage.image == [UIImage imageNamed:@"slacks.png" ]){
+            [imageNamebottom isEqualToString:@"blueshoes.png"]){
         
-        self.BottomImageView.Price = 400;
+        self.BottomImageView.Price = 40;
+    }
+    else if(
+            [imageNamebottom isEqualToString:@"redshoes.png"]){
+        
+        self.BottomImageView.Price = 50;
+    }
+    else if(
+            [imageNamebottom isEqualToString:@"triplesshoes.png"]){
+        self.BottomImageView.Price = 800;
     }
     else {
-        self.BottomImageView.Price = 9;
+        self.BottomImageView.Price = 1500;
     }
     
     
@@ -90,7 +125,7 @@
     _totalprice = (self.TopImageView.Price + self.MiddleImageView.Price + self.BottomImageView.Price);
     
     self.Pricelabel.text = [NSString stringWithFormat:@"£%.0f", _totalprice];
-*/
+
 }
 
 

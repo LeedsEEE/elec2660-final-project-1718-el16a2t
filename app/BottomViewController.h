@@ -16,6 +16,7 @@
 @property (strong, nonatomic) UIImage *bottomImage;
 @property (strong, nonatomic) NSString *bottomImageName;
 @property (weak, nonatomic) IBOutlet UILabel *shoesdescription;
-@property (weak, nonatomic) IBOutlet UILabel *shoeshyperlink;
+@property (weak, nonatomic) IBOutlet UITextView *shoeshyperlink;
+
 
 @end

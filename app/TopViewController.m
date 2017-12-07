@@ -23,28 +23,28 @@
     
     
     if( [_topImageName isEqualToString:@"blackhoodie.png"]){
-        self.topdescription.text = [NSString stringWithFormat:@"these are some lovely shoes you have here"];
-        self.tophyperlink.text = [NSString stringWithFormat:@"www.shoes.com"];
+        self.topdescription.text = [NSString stringWithFormat:@"Black Supreme Box Logo 'Bogo' hoodie - £100"];
+        self.tophyperlink.text = [NSString stringWithFormat:@"www.supremenewyork.com"];
     }
     else if ([_topImageName isEqualToString:@"bluehoodie.png"]) {
-        self.topdescription.text = [NSString stringWithFormat:@"tly shoes you have here"];
-        self.tophyperlink.text = [NSString stringWithFormat:@"www.blueshoes.com"];
+        self.topdescription.text = [NSString stringWithFormat:@"Blue Supreme Box Logo 'Bogo' hoodie - £110"];
+        self.tophyperlink.text = [NSString stringWithFormat:@"www.supremenewyork.com"];
     }
     else if ([_topImageName isEqualToString:@"greenhoodie.png"])
     {
-        self.topdescription.text = [NSString stringWithFormat:@"None"];
-        self.tophyperlink.text = [NSString stringWithFormat:@"None"];
+        self.topdescription.text = [NSString stringWithFormat:@"Green Supreme Box Logo 'Bogo' hoodie - £110"];
+        self.tophyperlink.text = [NSString stringWithFormat:@"supremenewyork.com"];
         
     }
     else if ([_topImageName isEqualToString:@"guccitee.png"])
     {
-        self.topdescription.text = [NSString stringWithFormat:@"None"];
-        self.tophyperlink.text = [NSString stringWithFormat:@"None"];
+        self.topdescription.text = [NSString stringWithFormat:@"Red Gucci T-shirt - £70"];
+        self.tophyperlink.text = [NSString stringWithFormat:@"https://gucci.com"];
         
     }
     else {
-        self.topdescription.text = [NSString stringWithFormat:@"None"];
-        self.tophyperlink.text = [NSString stringWithFormat:@"None"];
+        self.topdescription.text = [NSString stringWithFormat:@"Black Palace longsleeve Triferg shirt - £90"];
+        self.tophyperlink.text = [NSString stringWithFormat:@"https://www.palaceskateboards.com/"];
     }
 }
 
@@ -67,5 +67,4 @@
     // Pass the selected object to the new view controller.
 }
 */
-
 @end

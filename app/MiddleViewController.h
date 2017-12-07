@@ -15,6 +15,8 @@
 @property (strong, nonatomic) UIImage *middleImage;
 @property (strong, nonatomic) NSString *middleImageName;
 @property (weak, nonatomic) IBOutlet UILabel *trousersdescription;
-@property (weak, nonatomic) IBOutlet UILabel *trousershyperlink;
+@property (weak, nonatomic) IBOutlet UITextView *trousershyperlink;
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *trouserspan;
+
 
 @end

@@ -22,19 +22,29 @@
 
 
  if( [_bottomImageName isEqualToString:@"redshoes.png"]){
-        self.shoesdescription.text = [NSString stringWithFormat:@"these are some lovely shoes you have here"];
-        self.shoeshyperlink.text = [NSString stringWithFormat:@"www.shoes.com"];
+        self.shoesdescription.text = [NSString stringWithFormat:@"Red Nike Air-Force 1 - £50"];
+     self.shoeshyperlink.text = [NSString stringWithFormat:@"https://www.nike.com/"];
     }
 else if ([_bottomImageName isEqualToString:@"blueshoes.png"]) {
-    self.shoesdescription.text = [NSString stringWithFormat:@"tly shoes you have here"];
-    self.shoeshyperlink.text = [NSString stringWithFormat:@"www.blueshoes.com"];
+    self.shoesdescription.text = [NSString stringWithFormat:@"Blue Nike Air-Force 1 - £40"];
+    self.shoeshyperlink.text = [NSString stringWithFormat:@"https://www.nike.com/"];
     }
-    else {
-        self.shoesdescription.text = [NSString stringWithFormat:@"None"];
-        self.shoeshyperlink.text = [NSString stringWithFormat:@"None"];
+    else if ([_bottomImageName isEqualToString:@"goldshoes.png"]){
+        self.shoesdescription.text = [NSString stringWithFormat:@"Gold Nike Air-Force 1 - £200"];
+        self.shoeshyperlink.text = [NSString stringWithFormat:@"https://www.nike.com/"];
    
     }
-    
+    else if ([_bottomImageName isEqualToString:@"yeezyshoes.png"]){
+        self.shoesdescription.text = [NSString stringWithFormat:@"Yeezy Season 1 Moonrock - £1500"];
+        self.shoeshyperlink.text = [NSString stringWithFormat:@"adidas.com/yeezy"];
+
+    }
+    else {
+        self.shoesdescription.text = [NSString stringWithFormat:@"Blue Balenciaga Triple S - £800"];
+        self.shoeshyperlink.text = [NSString stringWithFormat:@"https://www.balenciaga.com/gb"];
+        
+    }
+
 }
 
 - (void)didReceiveMemoryWarning {
