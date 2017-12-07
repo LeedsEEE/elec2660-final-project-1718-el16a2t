@@ -17,7 +17,7 @@
                BlueprintIdentifier = "78C277BF1FC44CFB004A459A"
                BuildableName = "app.app"
                BlueprintName = "app"
-               ReferencedContainer = "container:app.xcodeproj">
+               ReferencedContainer = "container:LITFITS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "78C277D81FC44CFC004A459A"
                BuildableName = "appTests.xctest"
                BlueprintName = "appTests"
-               ReferencedContainer = "container:app.xcodeproj">
+               ReferencedContainer = "container:LITFITS.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "78C277E31FC44CFC004A459A"
                BuildableName = "appUITests.xctest"
                BlueprintName = "appUITests"
-               ReferencedContainer = "container:app.xcodeproj">
+               ReferencedContainer = "container:LITFITS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "78C277BF1FC44CFB004A459A"
             BuildableName = "app.app"
             BlueprintName = "app"
-            ReferencedContainer = "container:app.xcodeproj">
+            ReferencedContainer = "container:LITFITS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "78C277BF1FC44CFB004A459A"
             BuildableName = "app.app"
             BlueprintName = "app"
-            ReferencedContainer = "container:app.xcodeproj">
+            ReferencedContainer = "container:LITFITS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "78C277BF1FC44CFB004A459A"
             BuildableName = "app.app"
             BlueprintName = "app"
-            ReferencedContainer = "container:app.xcodeproj">
+            ReferencedContainer = "container:LITFITS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

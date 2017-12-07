@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:app.xcodeproj">
+      location = "self:/Users/el16a2t/Documents/elec2660-final-project-1718-el16a2t/LITFITS.xcodeproj">
    </FileRef>
 </Workspace>

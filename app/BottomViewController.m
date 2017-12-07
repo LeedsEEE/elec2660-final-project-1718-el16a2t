@@ -21,12 +21,21 @@
     
 
 
-
-// if( [_bottomImageName isEqualToString:@"image.png"]){
+ if( [_bottomImageName isEqualToString:@"redshoes.png"]){
         self.shoesdescription.text = [NSString stringWithFormat:@"these are some lovely shoes you have here"];
         self.shoeshyperlink.text = [NSString stringWithFormat:@"www.shoes.com"];
     }
-//}
+else if ([_bottomImageName isEqualToString:@"blueshoes.png"]) {
+    self.shoesdescription.text = [NSString stringWithFormat:@"tly shoes you have here"];
+    self.shoeshyperlink.text = [NSString stringWithFormat:@"www.blueshoes.com"];
+    }
+    else {
+        self.shoesdescription.text = [NSString stringWithFormat:@"None"];
+        self.shoeshyperlink.text = [NSString stringWithFormat:@"None"];
+   
+    }
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

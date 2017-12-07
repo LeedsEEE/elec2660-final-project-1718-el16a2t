@@ -20,6 +20,32 @@
     // Do any additional setup after loading the view.
     
     _Top.image = _topImage;
+    
+    
+    if( [_topImageName isEqualToString:@"blackhoodie.png"]){
+        self.topdescription.text = [NSString stringWithFormat:@"these are some lovely shoes you have here"];
+        self.tophyperlink.text = [NSString stringWithFormat:@"www.shoes.com"];
+    }
+    else if ([_topImageName isEqualToString:@"bluehoodie.png"]) {
+        self.topdescription.text = [NSString stringWithFormat:@"tly shoes you have here"];
+        self.tophyperlink.text = [NSString stringWithFormat:@"www.blueshoes.com"];
+    }
+    else if ([_topImageName isEqualToString:@"greenhoodie.png"])
+    {
+        self.topdescription.text = [NSString stringWithFormat:@"None"];
+        self.tophyperlink.text = [NSString stringWithFormat:@"None"];
+        
+    }
+    else if ([_topImageName isEqualToString:@"guccitee.png"])
+    {
+        self.topdescription.text = [NSString stringWithFormat:@"None"];
+        self.tophyperlink.text = [NSString stringWithFormat:@"None"];
+        
+    }
+    else {
+        self.topdescription.text = [NSString stringWithFormat:@"None"];
+        self.tophyperlink.text = [NSString stringWithFormat:@"None"];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

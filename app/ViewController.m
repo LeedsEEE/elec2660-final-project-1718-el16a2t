@@ -26,7 +26,9 @@
     _imagesArraytrousers= [[NSMutableArray alloc] initWithObjects: @"beigetrousers.png", @"bluetrousers.png", @"skinnyjeans.png", @"straightjeans.png", @"joggers.png", nil];
     _imagesArrayshoes= [[NSMutableArray alloc] initWithObjects: @"blueshoes.png", @"goldshoes.png", @"redshoes.png", @"triplesshoes.png", @"yeezyshoes.png", nil];
     
-    self.clothesindex = 0;
+    self.clothesIndexTop = 0;
+    self.clothesIndexMiddle = 0;
+    self.clothesIndexBottom = 0;
 
     
   /*    NSString* imageName = [self.imagesArraytops objectAtIndex: self.clothesindex ];
@@ -115,15 +117,15 @@
 
 - (IBAction)Button1:(UIButton *)sender {
    
-    self.clothesindex = self.clothesindex + 1;
+    self.clothesIndexTop = self.clothesIndexTop + 1;
     
-    if (self.clothesindex > (self.imagesArraytops.count - 1)) {
-        self.clothesindex = 0;
+    if (self.clothesIndexTop > (self.imagesArraytops.count - 1)) {
+        self.clothesIndexTop = 0;
     }
-    self.topimage.image = [UIImage imageNamed:[self.imagesArraytops objectAtIndex: self.clothesindex ]];
+    self.topimage.image = [UIImage imageNamed:[self.imagesArraytops objectAtIndex: self.clothesIndexTop ]];
     
 
-    NSString* imageName = [self.imagesArraytops objectAtIndex: self.clothesindex ];
+    NSString* imageName = [self.imagesArraytops objectAtIndex: self.clothesIndexTop ];
     //https://stackoverflow.com/questions/47692822/objective-c-xcode-image-in-imageview-not-recognised-by-xcode
     
    if(
@@ -160,15 +162,15 @@
 
 - (IBAction)Button2:(UIButton *)sender {
     
-    self.clothesindex = self.clothesindex - 1;
+    self.clothesIndexTop = self.clothesIndexTop - 1;
     
-    if (self.clothesindex == (-1)) {
-        self.clothesindex = 4;
+    if (self.clothesIndexTop == (-1)) {
+        self.clothesIndexTop = 4;
     }
-    self.topimage.image = [UIImage imageNamed:[self.imagesArraytops objectAtIndex: self.clothesindex ]];
+    self.topimage.image = [UIImage imageNamed:[self.imagesArraytops objectAtIndex: self.clothesIndexTop ]];
     
     
-    NSString* imageName = [self.imagesArraytops objectAtIndex: self.clothesindex ];
+    NSString* imageName = [self.imagesArraytops objectAtIndex: self.clothesIndexTop ];
 
     
     if(
@@ -203,15 +205,15 @@
 
 - (IBAction)Button3:(UIButton *)sender {
     
-    self.clothesindex = self.clothesindex + 1;
+    self.clothesIndexMiddle = self.clothesIndexMiddle + 1;
     
-    if (self.clothesindex > (self.imagesArraytrousers.count - 1)) {
-        self.clothesindex = 0;
+    if (self.clothesIndexMiddle > (self.imagesArraytrousers.count - 1)) {
+        self.clothesIndexMiddle = 0;
     }
-    self.middleimage.image = [UIImage imageNamed:[self.imagesArraytrousers objectAtIndex: self.clothesindex ]];
+    self.middleimage.image = [UIImage imageNamed:[self.imagesArraytrousers objectAtIndex: self.clothesIndexMiddle ]];
     
     
-      NSString* imageName = [self.imagesArraytrousers objectAtIndex: self.clothesindex ];
+      NSString* imageName = [self.imagesArraytrousers objectAtIndex: self.clothesIndexMiddle ];
     
     if(
        [imageName isEqualToString:@"beigetrousers.png"]){
@@ -246,15 +248,15 @@
 
 - (IBAction)Button4:(UIButton *)sender {
     
-    self.clothesindex = self.clothesindex - 1;
+    self.clothesIndexMiddle = self.clothesIndexMiddle - 1;
     
-    if (self.clothesindex == (-1)) {
-        self.clothesindex = 4;
+    if (self.clothesIndexMiddle == (-1)) {
+        self.clothesIndexMiddle = 4;
     }
-    self.middleimage.image = [UIImage imageNamed:[self.imagesArraytrousers objectAtIndex: self.clothesindex ]];
+    self.middleimage.image = [UIImage imageNamed:[self.imagesArraytrousers objectAtIndex: self.clothesIndexMiddle ]];
     
     
-    NSString* imageName = [self.imagesArraytrousers objectAtIndex: self.clothesindex ];
+    NSString* imageName = [self.imagesArraytrousers objectAtIndex: self.clothesIndexMiddle ];
     
     if(
        [imageName isEqualToString:@"beigetrousers.png"]){
@@ -289,15 +291,15 @@
 
 - (IBAction)Button5:(UIButton *)sender {
     
-    self.clothesindex = self.clothesindex + 1;
+    self.clothesIndexBottom = self.clothesIndexBottom + 1;
     
-    if (self.clothesindex > (self.imagesArrayshoes.count - 1)) {
-        self.clothesindex = 0;
+    if (self.clothesIndexBottom > (self.imagesArrayshoes.count - 1)) {
+        self.clothesIndexBottom = 0;
     }
-    self.bottomimage.image = [UIImage imageNamed:[self.imagesArrayshoes objectAtIndex: self.clothesindex ]];
+    self.bottomimage.image = [UIImage imageNamed:[self.imagesArrayshoes objectAtIndex: self.clothesIndexBottom ]];
     
     
-      NSString* imageName = [self.imagesArrayshoes objectAtIndex: self.clothesindex ];
+      NSString* imageName = [self.imagesArrayshoes objectAtIndex: self.clothesIndexBottom ];
     
    if(
        [imageName isEqualToString:@"goldshoes.png"]){
@@ -328,15 +330,15 @@
 }
 - (IBAction)Button6:(UIButton *)sender {
     
-    self.clothesindex = self.clothesindex - 1;
+    self.clothesIndexBottom = self.clothesIndexBottom - 1;
     
-    if (self.clothesindex == (-1)) {
-        self.clothesindex = 4;
+    if (self.clothesIndexBottom == (-1)) {
+        self.clothesIndexBottom = 4;
     }
-    self.bottomimage.image = [UIImage imageNamed:[self.imagesArrayshoes objectAtIndex: self.clothesindex ]];
+    self.bottomimage.image = [UIImage imageNamed:[self.imagesArrayshoes objectAtIndex: self.clothesIndexBottom ]];
     
     
-    NSString* imageName = [self.imagesArrayshoes objectAtIndex: self.clothesindex ];
+    NSString* imageName = [self.imagesArrayshoes objectAtIndex: self.clothesIndexBottom ];
     
     if(
        [imageName isEqualToString:@"goldshoes.png"]){
@@ -382,14 +384,19 @@
     if([[segue identifier] isEqualToString:@"TopSegue"]){
         TopViewController *tvc = [segue destinationViewController];
         tvc.topImage = self.topimage.image;
+        tvc.topImageName = [self.imagesArraytops objectAtIndex: self.clothesIndexTop];
     }
     if([[segue identifier] isEqualToString:@"MiddleSegue"]){
         MiddleViewController *mvc = [segue destinationViewController];
         mvc.middleImage = self.middleimage.image;
+        mvc.middleImageName = [self.imagesArraytrousers objectAtIndex: self.clothesIndexMiddle];
     }
     if([[segue identifier] isEqualToString:@"BottomSegue"]){
         BottomViewController *bvc = [segue destinationViewController];
         bvc.bottomImage = self.bottomimage.image;
+        bvc.bottomImageName = [self.imagesArrayshoes objectAtIndex: self.clothesIndexBottom];
+        
+        
     }
     
 }

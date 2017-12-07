@@ -13,6 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *Trousers;
 @property (strong, nonatomic) UIImage *middleImage;
+@property (strong, nonatomic) NSString *middleImageName;
 @property (weak, nonatomic) IBOutlet UILabel *trousersdescription;
 @property (weak, nonatomic) IBOutlet UILabel *trousershyperlink;
 
